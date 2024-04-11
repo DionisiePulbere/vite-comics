@@ -26,9 +26,5 @@ export default {
 
 <style lang="scss">
 /* CSS */ 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@use './style/generic';
 </style>
