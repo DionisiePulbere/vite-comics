@@ -108,6 +108,7 @@ export default {
     
     .container-info{
         max-width: 1000px;
+        padding-top: 20px;
         margin: 0 auto;
         color: white;
         display: flex;
