@@ -2,12 +2,14 @@
 // JS
 import AppHeader from './components/AppHeader.vue';
 import AppList from './components/AppList.vue';
+import AppJumbo from './components/AppJumbo.vue';
 import AppInfo from './components/AppInfo.vue';
 import AppFooter from './components/AppFooter.vue';
 export default {
   components: {
     AppHeader,
     AppList,
+    AppJumbo,
     AppInfo,
     AppFooter
   }
@@ -18,6 +20,7 @@ export default {
   <!-- HTML -->
   <AppHeader></AppHeader>
   <main>
+    <AppJumbo></AppJumbo>
     <AppList></AppList>
     <AppInfo></AppInfo>
   </main>
